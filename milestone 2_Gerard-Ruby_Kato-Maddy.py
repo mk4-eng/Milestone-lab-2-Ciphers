@@ -1,4 +1,3 @@
-
 #Milestone lab 2 - Group 4: Ruby Gerard, Maddy Kato, Tholpi Machar (we could not contact Tholpi) 
 def caesar(a,b,c):
     message = []
@@ -71,13 +70,3 @@ elif user_choice_type == 2: # if user wants to use the vigenere cipher
     key = input("Enter the key: ") # user enters key used to encrypt/decript
     phrase = input("Enter the phrase: ") #user enters message to encrypt/decrypt
     print(f"Your {w} message is: {vigenere_cipher(phrase, key, do)}") # prints final encoded/decoded message 
-
-
-
-
-
-
-
-
-
-
