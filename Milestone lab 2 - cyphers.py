@@ -1,4 +1,4 @@
-#Milestone lab 2 - Group 4: Ruby Gerard, Maddy Kato, Tholpi Machar
+#Milestone lab 2 - Group 4: Ruby Gerard, Maddy Kato, Tholpi Machar (we could not contact Tholpi) 
 message = []
 def caesar(a,b,c):
     if c == 2: 
