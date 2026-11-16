@@ -1,0 +1,18 @@
+#Milestone lab 2 - Group 4: Ruby Gerard, Maddy Kato, Tholpi Machar (we could not contact Tholpi) 
+message = []
+def caesar(a,b,c):
+    if c == 2: 
+        a = int(a) * -1 # if user wants to decode sets key to negative (shift left)
+    elif c == 1:
+        a = int(a) # if user wants do encode keeps key as positive (shift right)
+    for j in b: # for every character in the message 
+        if ord(j) >= 65 and ord(j) <= 90: # if character is uppercase
+            h = (ord(j) - 65 + a) % 26 + 65 # moves key # of characters right
+            message.append(chr(h)) # adds character to list
+        elif ord(j) >= 97 and ord(j) <= 122: # if character is lowercase 
+            h = (ord(j) - 97 + a) % 26 + 97 # moves key # of characters right
+            message.append(chr(h)) # adds character to list
+        else: # if character is not a letter 
+            message.append(j) # adds to list "message" 
+    return("".join(message))
+
