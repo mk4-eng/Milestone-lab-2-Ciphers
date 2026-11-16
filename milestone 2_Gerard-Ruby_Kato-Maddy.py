@@ -1,4 +1,3 @@
-
 # Milestone lab 2 - Group 4: Ruby Gerard, Maddy Kato, Tholpi Machar (we could not contact Tholpi) 
 def caesar(a,b,c):
     message = []
